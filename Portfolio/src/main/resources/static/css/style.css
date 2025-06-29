@@ -1,0 +1,7 @@
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
+        .hero { background-color: #f8f9fa; padding: 40px 20px; text-align: center; }
+        .hero h1 { font-size: 2.5rem; }
+        .section-title { margin-top: 40px; }
+        .btn-custom { margin: 5px; }
+    </style>
