@@ -17,4 +17,8 @@ public class HomeController {
     public String contacts(){
         return "contacts";
     }
+    @GetMapping("/blog")
+    public String showBlog() {
+        return "blog"; // Thymeleaf will look for blog.html in /templates
+    }
 }

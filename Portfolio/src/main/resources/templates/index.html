@@ -6,6 +6,7 @@
     <title>G Harikrishnan | Java Developer Portfolio</title>
     <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
     <link th:href="@{/css/style.css}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- Hero Section -->
@@ -17,49 +18,48 @@
         Eager to contribute to real-world enterprise projects.
     </p>
     <a th:href="'mailto:harikrishnanece18@gmail.com'" class="btn btn-primary btn-custom">Email</a>
-    <a th:href="'https://linkedin.com/in/harikrishnang18232003'" class="btn btn-outline-secondary btn-custom">LinkedIn</a>
-    <a th:href="'https://github.com/Harikrishnan1823'" class="btn btn-outline-dark btn-custom">GitHub</a>
-    <a th:href="@{/assets/Harikrishnan_G_JavaDeveloper.pdf}" download class="btn btn-primary btn-custom">
-        📄 Download My Resume
-    </a>
+    <a th:href="'https://linkedin.com/in/harikrishnang18232003'"
+       class="btn btn-primary btn-custom">LinkedIn</a>
+    <a th:href="'https://github.com/Harikrishnan1823'" class="btn btn-primary btn-custom">GitHub</a>
+    <a th:href="@{/blog}" class="btn btn-custom">📝 Blog</a>
+    <a th:href="@{/assets/Harikrishnan_G_JavaDeveloper.pdf}" download class="btn btn-custom">📄 Download My Resume</a>
 </div>
 
 <!-- Content Section -->
-<div class="container">
+<div class="section-block">
     <h3 class="section-title">About Me</h3>
     <p><strong>Location:</strong> Kovilambakkam, Chennai - 600129</p>
-    <p><strong>Skills:</strong> Java, Spring Boot, REST API, MySQL, Thymeleaf, Bootstrap, HTML, CSS, Git, Arduino, Exception Handling</p>
+    <p><strong>Skills:</strong> Java, Spring Boot, REST API, MySQL, Thymeleaf, Bootstrap, HTML, CSS, Git, Arduino,
+        Exception Handling</p>
     <p><strong>Tools:</strong> IntelliJ IDEA, VS Code, Arduino IDE, Postman</p>
-
-    <h3 class="section-title">Projects</h3>
-    <div>
+    <div class="section-block">
+        <h3 class="section-title">Projects</h3>
         <h5>Student Management System</h5>
         <p>
             Built a backend system using Spring Boot and MySQL with full CRUD functionality and RESTful JSON APIs.
             Tested via Postman and browser. Followed layered architecture and exception handling.
         </p>
-        <a th:href="'https://github.com/Harikrishnan1823/student-management-system'" target="_blank">
+        <a th:href="'https://github.com/Harikrishnan1823/StudentManagement'" target="_blank" class="btn btn-custom">
             View Project on GitHub
         </a>
     </div>
-    <div>
+    <div class="section-block">
         <h5>Employee Management System</h5>
         <p>
             Developed a full-stack employee management app using Spring Boot, Thymeleaf, Bootstrap, and MySQL.
             Integrated server-side validation and CRUD operations with responsive UI.
         </p>
-        <a th:href="'https://github.com/Harikrishnan1823/employee-management-system'" target="_blank">
+        <a th:href="'https://github.com/Harikrishnan1823/EmployeeManagement'" target="_blank" class="btn btn-custom">
             View Project on GitHub
         </a>
     </div>
-
-    <h3 class="section-title">Education</h3>
-    <p>
-        BE – Electronics and Communication Engineering, 2021–2025, CGPA: 8.00<br>
-        New Prince Shri Bhavani College of Engineering and Technology, Chennai
-    </p>
-    <p>12th Standard – State Board | 90.5%<br>Govt. Higher Secondary School, Chennai | 2021</p>
-    <p>10th Standard – State Board | 86%<br>Govt. Higher Secondary School, Chennai | 2019</p>
+    <div class="section-block">
+        <h3 class="section-title">Education</h3>
+        <p>BE – Electronics and Communication Engineering, 2021–2025, CGPA: 8.00<br>
+            New Prince Shri Bhavani College of Engineering and Technology, Chennai</p>
+        <p>12th Standard – State Board | 90.5%<br>Govt. Higher Secondary School, Chennai | 2021</p>
+        <p>10th Standard – State Board | 86%<br>Govt. Higher Secondary School, Chennai | 2019</p>
+    </div>
 </div>
 </body>
 </html>
