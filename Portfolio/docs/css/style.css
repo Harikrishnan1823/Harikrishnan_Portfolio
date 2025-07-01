@@ -1,0 +1,69 @@
+/* ===== GLOBAL ===== */
+body {
+  background-color: #9FF2F5;
+  font-family: 'Poppins', sans-serif;
+  color: #2a2a2a;
+}
+
+/* ===== SECTIONS ===== */
+.section-block {
+  background-color: #E8D9F6;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+/* ===== CUSTOM BUTTONS ===== */
+.btn-custom {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 600;
+  background-color: #5CEEF3; /* Deep purple */
+  color: #9C22BE;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+   margin: 8px 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-custom:hover {
+  background-color: #9b59b6; /* Soft glow violet */
+  box-shadow: 0 0 15px rgba(107, 0, 170, 0.6);
+  transform: scale(1.05);
+  color: #fff;
+  text-decoration: none;
+}
+/* ===== HERO SECTION ===== */
+.hero {
+  background: linear-gradient(to right, #B388EB, #6E44FF);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero h4 {
+    font-size: 1.2rem;
+  }
+  .btn-custom {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+  }
+}
+.btn-outline-secondary.btn-custom,
+.btn-outline-dark.btn-custom {
+  border-width: 2px;
+  background-color: transparent;
+  color: white;
+}
+
+.btn-outline-secondary.btn-custom:hover,
+.btn-outline-dark.btn-custom:hover {
+  background-color: #9b59b6;
+  color: #fff;
+}
